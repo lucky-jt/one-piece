@@ -1,0 +1,12 @@
+/* 给所有需要过渡的属性添加动画 */
+* {
+  transition: background-color 0.3s ease,
+              color 0.3s ease,
+              border-color 0.3s ease,
+              box-shadow 0.3s ease;
+}
+
+/* 但是有些元素可能不需要过渡动画 */
+.no-transition {
+  transition: none !important;
+} 

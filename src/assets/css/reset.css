@@ -1,0 +1,29 @@
+body, h1, h2, h3, h4, ul, li {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    box-sizing: border-box;
+}
+::selection {
+    background: #f1e6bb;
+    color: #505030;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+img {
+    vertical-align: top;
+}
+
+* {
+    box-sizing: border-box;
+}
